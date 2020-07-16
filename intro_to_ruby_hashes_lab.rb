@@ -67,7 +67,9 @@ def monopoly_with_fourth_tier
         :b_and_o_railroad=>{
           :mortgage_value=> 400,
         },
-        :shortline_railroad=>{},
+        :shortline_railroad=>{
+          :mortgage_value=> 800,
+        },
      },
     }
   }# When you start writing the implementation for this method, copy the Hash
